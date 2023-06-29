@@ -1,0 +1,461 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>		
+		<meta charset="utf-8">
+		<title>Tulip WordPress Theme Documentation | FlatLayers</title>
+		<link rel="stylesheet" href="assets/style.css" type="text/css">
+		<link rel="icon" href="assets/favicon.png">
+	</head>
+	<body>
+		<section>
+			<ul class="docs-nav">
+				<li><span>1. Getting Started</span></li>
+				<li><a href="#welcome">Welcome</a></li>
+				<li><a href="#installing">Installing Tulip Theme</a></li>
+				<li><a href="#required-plugins">Required Plugins</a></li>
+				<li><a href="#recommended-plugins">Recommended Plugins</a></li>
+				<li><a href="#import-demo">Import Demo Content</a></li>
+				<li><a href="#updating">Updating Tulip Theme</a></li>
+				<li><a href="#menus">Menus Setup</a></li>
+				<li class="separator"></li>
+				<li><span>2. Customization</span></li>
+				<li><a href="#overview">Overview</a></li>
+				<li><a href="#settings">Settings</a></li>
+				<li><a href="#colors">Colors</a></li>
+				<li><a href="#typography">Typography</a></li>
+				<li class="separator"></li>
+				<li><span>3. Content</span></li>
+				<li><a href="#categories">Categories</a></li>
+				<li><a href="#posts">Posts</a></li>
+				<li><a href="#pages">Pages</a></li>
+				<li><a href="#woocommerce">WooCommerce</a></li>
+				<li class="separator"></li>
+				<li><span>4. Sidebars</span></li>
+				<li><a href="#sidebar">Sidebars & Widgets</a></li>
+				<li class="separator"></li>
+				<li><span>5. Theme Translation</span></li>
+				<li><a href="#translation">Translate Tulip Theme</a></li>
+			</ul>
+
+		    <div class="docs-content">		    
+				<header>
+					<h1>Tulip Documentation</h1>
+					<h4>Responsive WordPress Blog Theme</h4>
+				</header>	    
+				<h2>1. Getting Started</h2>
+			    <div id="welcome" class="docs-single">
+					<h3>Welcome</h3>
+					<p>Created: 08/05/2015<br>
+						Last Update: 03/11/2023<br>
+						By: <a href="https://www.flatlayers.com/" target="_blank">FlatLayers</a><br>
+						Support Email: <a href="mailto:support@flatlayers.com" target="_blank">support@flatlayers.com</a>
+					</p>
+					<p>Thank you for purchasing our theme. If you have any questions that are beyond the scope of this help file, please Email us at <a href="mailto:support@flatlayers.com" target="_blank">support@flatlayers.com</a>. We will get back to you within 12 hours and help you with any issue you might have. Thanks so much!</p>
+				</div>
+
+				<div id="installing" class="docs-single">
+					<h3>Installing Tulip Theme</h3>
+					<h4>Using WordPress Dashboard</h4>
+					<ul>
+						<li>Download full theme ZIP package and Extract it to normal folder.</li>
+						<li>Go to your WordPress dashboard and click on <strong>Appearance</strong>.</li>
+						<li>Click on <strong>Add New Themes</strong> then click on <strong>Upload</strong>.</li>
+						<li>Browse for <strong>tulip.zip</strong> inside the extracted folder then click <strong>Open</strong>.</li>
+						<li>Click the <strong>Install Now</strong>.</li>
+						<li>After finishing installation process click on <strong>Activate the theme</strong>.</li>
+					</ul>
+					<figure>
+						<img src="assets/img/install.png" alt="Installing Tulip Theme">
+					</figure>
+					<h4>Using FTP</h4>
+					<ul>
+						<li>Extract <strong>tulip.zip</strong> to normal folder.</li>
+						<li>Open WordPress instaltion directory.</li>
+						<li>Go to <strong>/wp-content/themes</strong> directory.</li>
+						<li>Upload <strong>tulip folder</strong> to that "themes" directory.</li>
+					</ul>
+					<p>You will find <strong>tulip-child</strong> folder. It's a child theme you can edit and upload using FTP to <strong>themes</strong> directory.</p>
+				</div>
+
+				<div id="required-plugins" class="docs-single">
+					<h3>Required Plugins</h3>
+					<p>After installing Tulip theme. Theme shows message to install <strong>Tulip Theme Addons</strong>. Follow instructions to install and active them.</p>
+					
+					<h4>Tulip Theme Addons plugin contains:</h4>
+					<ul>
+						<li>Post formats meta boxes (Standard, Audio, Video, Gallery).</li>
+						<li>Author social profiles inputs.</li>
+						<li>Custom Widgets (Tulip Latests Posts, Tulip Category Posts, Tulip IDs Posts, Tulip Random Posts, Tulip About).</li>
+					</ul>
+					<figure>
+						<img src="assets/img/message.png" alt="Tulip Theme Addons">
+					</figure>
+				</div>
+				<div id="recommended-plugins" class="docs-single">
+					<h3>Recommended Plugins</h3>
+					<p>To install any plugin just go to <strong>Plugins > Add New</strong>. Type or paste plugin name and wait until it's appears then install and activate it.<br>
+						<strong>Please</strong>, read any plugin documentation before using it to know how to use it correctly.
+					</p>
+					<figure>
+						<img src="assets/img/recomended.png" alt="Recommended Plugins">
+					</figure>
+					<ul>
+						<li>
+							<strong><a href="https://wordpress.org/plugins/woocommerce/" target="_blank">WooCommerce</a></strong><br>
+							<span>WooCommerce lets you create your online shop.</span> <a href="https://woocommerce.com/documentation/plugins/woocommerce/" target="_blank">Plugin Documentation</a>
+						</li>							
+						<li>
+							<strong><a href="https://wordpress.org/plugins/contact-form-7/" target="_blank">Contact form 7</a></strong><br>
+							<span>This plugin lets you create contact froms.</span> <a href="http://contactform7.com/docs/" target="_blank">Plugin Documentation</a>
+						</li>
+						<li>
+							<strong><a href="https://wordpress.org/plugins/mailchimp-for-wp/" target="_blank">MailChimp for WordPress</a></strong><br>
+							<span>This plugin lets you create subscribe froms using Mailchimp website services.</span> <a href="https://mc4wp.com/kb/" target="_blank">Plugin Documentation</a>
+						</li>
+						<li>
+							<strong><a href="https://wordpress.org/plugins/regenerate-thumbnails/" target="_blank">Regenerate Thumbnails</a></strong><br>
+							<span>You must use this plugin if you uploaded pictures before installing Tulip theme.</span><br>
+							<span>After installing and activating <strong>Regenerate Thumbnails</strong>.</span><br>
+							<ul>
+								<li>Go to <strong>Tools > Regen. Thumbnails</strong>.</li>
+								<li>Click on <strong>Regenerate All Thumbnails</strong> and wait until it's finish.</li>
+							</ul>
+						</li>
+					</ul>
+					<figure>
+						<img src="assets/img/regenerate.png">
+					</figure>
+				</div>
+
+				<div id="import-demo" class="docs-single">
+					<h3>Import Demo Content</h3>
+					<p>Tulip theme comes with XML demo content file <strong>"tulip-demo-data.xml"</strong> you will find it inside theme package folder. To import it:</p>
+					<ul>
+						<li>Go to <strong>Tools > Import</strong>.</li>
+						<li>Click on <strong>WordPress</strong>.</li>
+						<li>Install and activate <strong>WordPress Importer</strong> plugin.</li>
+						<li>Upload <strong>"tulip-demo-data.xml"</strong> and import it.</li>
+					</ul>
+				</div>
+
+				<div id="updating" class="docs-single">
+					<h3>Updating Tulip Theme</h3>
+					<p>Tulip theme may be updated periodically in order to add new features and fix bugs. You have two methods to update theme.</p>
+					<h4>Updating Automatically</h4>
+					<p>
+					Envato have developed the <a href="https://www.envato.com/lp/market-plugin/" target="_blank">Envato Market Plugin</a> for WordPress.
+					This plugin automatically alert you on your dashboard when a new version of the theme is available and you can update it automatically from your WordPress dashboard. Follow upcoming steps to install and use it.
+					</p>
+					<ul>
+						<li>Go to <a href="https://www.envato.com/lp/market-plugin/" target="_blank">Envato Market Plugin</a>.</li>
+						<li>Follow instruction to download, install and activate it.</li>
+					</ul>
+					<h4>Updating Manually</h4>
+					<ul>
+						<li>Download latest theme version from <a href="http://themeforest.net/downloads?ref=flatlayers" target="_blank">ThemeForest > Downloads</a>.</li>
+						<li>Extract the ZIP theme Package to normal folder.</li>
+						<li>Go to <strong>Appearance > Themes</strong>.</li>
+						<li>Click on <strong>Add New > Upload</strong> then install <strong>tulip.zip</strong>.</li>
+					</ul>
+				</div>
+
+				<div id="menus" class="docs-single">
+					<h3>Menus Setup</h3>
+					<p>Tulip theme has 1 menu location <strong>(Main Menu)</strong>.</p>
+					<p>To Create and activate Menu:</p>
+					<ul>
+						<li>Go to <strong>Appearance > Menus</strong>.</li>
+						<li>Click on <strong>Create New Menu</strong> button and give it a name.</li>
+						<li>Select Page, Posts, Categories or create custom links then click <strong>Add To Menu</strong> button.</li>
+						<li>Select Menu Location <strong>Main Menu</strong>.</li>
+						<li>Then Click on <strong>Save Menu</strong> button.</li>
+					</ul>
+					<p>You can create more menus and use them in widgets.<br>
+					To know how to create and control Menus check out <a href="http://codex.wordpress.org/WordPress_Menu_User_Guide" target="_blank">WordPress Menu User Guide</a>
+					</p>
+					<figure>
+						<img src="assets/img/menu.png">
+					</figure>
+				</div>
+
+
+				<h2>2. Customization</h2>
+
+				<div id="overview" class="docs-single">
+					<h3>Overview</h3>
+					<p>Tulip theme powerful customiztion panel will help you to change options, colors, typography and see change in live preview before saving. Options are arranged to help you understand and use it.</p>
+					<p>Go to <strong>Appearance > Customize</strong> to customize your blog.</p>
+					<p>Here is some insturctions to use Customize panel:</p>
+					<ul>
+						<li>Read each option title and description to know how to use it.</li>
+						<li>Test changes in live preview before saving it.</li>
+						<li>WooCommerce options display when WooCommerce plugin is activated.</li>
+					</ul>
+					<figure>
+						<img src="assets/img/customize.png">
+					</figure>
+				</div>
+
+				<div id="settings" class="docs-single">
+					<h3>Settings</h3>
+					<p>List of all settings sections in customize panel</p>
+					<h4>1. Site Identity:</h4>
+					<ul>
+						<li>Adding Site title</li>
+						<li>Adding Site tagline (description)</li>
+						<li>Adding Site icon (favicon)</li>
+					</ul>
+
+					<h4>2. General Settings:</h4>
+					<ul>
+						<li>Select sidebar position</li>
+						<li>Enable/Disable sticky sidebar</li>
+						<li>Show/Hide sidebar in posts</li>
+						<li>Show/Hide sidebar in pages</li>
+						<li>Select blog layout</li>
+						<li>Select categories archive layout</li>
+						<li>Select author archive layout</li>
+						<li>Select search results layout</li>
+						<li>Select tags & other archives layout</li>
+						<li>Select WooCommerce shop & archives page layout</li>
+						<li>Show/Hide sidebar in product page</li>
+					</ul>
+
+					<h4>3. Header Settings:</h4>
+					<ul>
+						<li>Set dark mode as default Mode</li>
+						<li>Enable/Disable dark mode</li>
+						<li>Adding logo</li>
+						<li>adding dark mode logo</li>
+						<li>Show/Hide social media icons</li>
+						<li>Show/Hide search</li>
+						<li>Show/Hide Woocommerce cart icon</li>
+						<li>Show/Hide Woocommerce account icon</li>
+					</ul>
+
+					<h4>4. Featured Posts Slider Settings:</h4>
+					<p>Display specific posts and/or latest posts from certain categories.</p>
+					<ul>
+						<li>Show/Hide Featured Posts Slider</li>
+						<li>Adding posts Ids</li>
+						<li>Adding categories slugs</li>
+						<li>Adding maximum number of posts (slides)</li>
+					</ul>
+
+					<h4>5. Banners Settings:</h4>
+					<p>Banners appears under featured posts slider. You can add one banner or two banners. Minimum picture size is 1060x176px for one banner or 510x176px for two banners.</p>
+					<ul>
+						<li>Show/Hide banners section</li>
+						<li>Adding banners backgrounds</li>
+						<li>Adding banners titles</li>
+						<li>Adding banners links</li>
+					</ul>
+
+
+					<h4>6. Post Settings:</h4>
+					<ul>
+						<li>Show/Hide Author Section</li>
+						<li>Show/Hide Previous & Next Posts Section</li>
+						<li>Show/Hide Related Posts</li>
+						<li>Show/Hide Share Icons</li>
+						<li>Show/Hide Author Meta</li>
+						<li>Show/Hide Date Meta</li>
+						<li>Show/Hide Tags Meta</li>
+						<li>Show/Hide Comments Meta</li>
+					</ul>
+
+					<h4>7. Footer Settings:</h4>
+					<ul>
+						<li>Show/Hide Footer Widgets</li>
+						<li>Show/Hide Footer Socials</li>
+						<li>Adding Copyrights Text</li>
+					</ul>
+
+					<h4>8. Social Media (Header & Footer):</h4>
+					<p>Add your social media links and it will display automatically in header and footer like demo.</p>
+					<p>Please add full link starting with (https://) not just username.</p>
+				</div>
+
+				<div id="colors" class="docs-single">
+					<h3>Colors</h3>
+					<p>Colors customize sections allow you change all theme colors in Light mode.</p>
+					<p>Dark Mode has only one color scheme.</p>
+					<p>Accent color display in both light and dark mode.</p>
+
+					<h4>1. Colors: General</h4>
+					<p>Allow you to change general colors, backgrounds, headings, buttons...etc</p>
+
+					<h4>2. Colors: Header</h4>
+					<p>Allow you to change Header colors, backgrounds, menu, submenu...etc</p>
+
+					<h4>2. Colors: Footer</h4>
+					<p>Allow you to change Footer colors, backgrounds...etc</p>
+				</div>
+
+				<div id="typography" class="docs-single">
+					<h3>Typography</h3>
+					<p>Tulip theme is designed based on a powerful typography ratio.</p>
+					<p>You can use any font from <a href="https://fonts.google.com" target="_blank">Google Fonts</a>.</p>
+					<p>Please, read typography options carefully.</p>
+				</div>
+
+
+				<h2>3. Content</h2>
+				<div id="categories" class="docs-single">
+					<h3>Categories</h3>
+					<ul>
+						<li>Go to <strong>Posts > Categories</strong>.</li>
+						<li>Add/Edit category name, slug and description.</li>
+					</ul>
+					<figure>
+						<img src="assets/img/category.png">
+					</figure>
+				</div>
+
+				<div id="posts" class="docs-single">
+					<h3>Posts</h3>
+					<h4>Gutenberg Editor Support</h4>
+					<p>Tulip theme is fully support gutenberg editor.<br>
+					to know how to use gutenberg editor please check this tutorial: <a href="https://www.wpbeginner.com/beginners-guide/how-to-use-the-new-wordpress-block-editor/" target="_blank">How to Use the WordPress Block Editor (Gutenberg Tutorial)</a>.</p>
+					<figure>
+						<img src="assets/img/editor.png">
+					</figure>
+
+					<h4>Post Formats</h4>
+					<p>Tulip theme has 4 post Formats <strong>( Standard, Video, Audio, Gallery )</strong>.</p>
+					<ul>
+						<li><strong>Standard</strong>
+						<br>It will display Featured Image if you added it.</li>
+						<li><strong>Video</strong>
+						<br>To embed Youtube, vimeo, Dailymotion or TED video.
+						<br>Just copy video link from browser and paste it like this:
+						<br>"https://vimeo.com/34038042"
+						<br>"https://www.youtube.com/watch?v=NgJHbvGd_q0"
+						<br>"http://www.dailymotion.com/video/x4o6cky_funny-cats-compilation-funny-cats-a-funny-cat-videos-compilation-2016-new-hd_animals"
+						<br>"http://www.ted.com/talks/jia_jiang_what_i_learned_from_100_days_of_rejection"</li>
+						<li><strong>Audio</strong>
+						<br>To embed SoundCloud or spotify audio.
+						<br>Just copy audio link from browser and paste it like this:
+						<br>"https://soundcloud.com/goodlifeproject/mark-nepo-1"
+						<br>"http://open.spotify.com/track/5yEPxDjbbzUzyauGtnmVEC"</li>
+						<li><strong>Gallery</strong>
+						<br>To insert slideshow gallery to post.</li>
+					</ul>
+					<figure>
+						<img src="assets/img/formats.png">
+					</figure>
+
+					<h4>Featured Image</h4>
+					<p>Add featured image for all posts even gallery posts to display it in blog and archives pages.
+					<br>Featured image size must be <strong>( 1060px width X 600px height )</strong> or more.</p>
+
+					<h4>Post Excerpt</h4>
+					<p>Excerpt is generated automatically with first 60 words.</p>
+					<p>You can add excerpt manually. please see the image below.
+					<figure>
+						<img src="assets/img/excerpt.png">
+					</figure>
+				</div>
+
+				<div id="pages" class="docs-single">
+					<h3>Pages</h3>
+					<p>As in posts section you can create page using gutenberg or classic editor.</p>
+					<p>Also you can add featured image.</p>
+
+					<h4>Disable Comments</h4>
+					<p>Default pages have comments section.
+					<br>To hide comments section from page :</p>
+					<ul>
+						<li>Scroll to Discussion section and remove <strong>Allow comments</strong> selection.</li>
+					</ul>
+					<figure>
+						<img src="assets/img/comments.png">
+					</figure>
+				</div>
+
+				<div id="woocommerce" class="docs-single">
+					<h3>WooCommerce</h3>
+					<p>To use WooCommerce plugin in Tulip theme.</p>
+					<p>Install it and follow setup instructions</p>
+					<p>Plugin will setup required pages <strong>(Shop, Cart, Checkout and Account )</strong>.</p>
+					<p>Please, read <a href="https://docs.woothemes.com/documentation/plugins/woocommerce/" target="_blank"><strong>WooCommerce Documentation</strong></a>. It will help you to know all tips required to create your shop.</p>
+					<p>Go to <strong>Appearance > Widgets</strong> to add widgets to <strong>WooCommerce Sidebar</strong></p>
+				</div>
+
+				<h2>4. Sidebars</h2>
+				<div id="sidebar" class="docs-single">
+					<h3>Sidebars & Widgets</h3>
+					<p>Tulip theme has 5 widget areas:</p>
+					<ul>
+						<li><strong>Sidebar</strong></li>
+						<li><strong>Footer Widget 1</strong>.</li>
+						<li><strong>Footer Widget 2</strong>.</li>
+						<li><strong>Footer Widget 3</strong>.</li>
+						<li><strong>WooCommerce Sidebar</strong>.
+						<br>It will added automatically after activating WooCommerce plugin and it display in WooCommerce archives and product pages. We prefer to added WooCommerce widgets to it.</li>
+					</ul>
+					<p>To add Widgets go to <strong>Appearance > Widgets</strong>.</p>
+
+					<h4>Tulip Custom Widgets</h4>
+					<p>Tulip theme has 5 Custom widget. they are prefixed by theme name "Tulip".</p>
+					<ul>
+						<li><strong>Tulip About</strong>.
+						<br>To add information and picture for blog owner.</li>
+						<li><strong>Tulip Category posts</strong>.
+						<br>Display category latest posts.</li>
+						<li><strong>Tulip Latest posts</strong>.
+						<br>Display latest posts.</li>
+						<li><strong>Tulip Random posts</strong>.
+						<br>Display random posts.</li>
+						<li><strong>Tulip IDs posts</strong>.
+						<br>Display specific posts.</li>
+					</ul>
+
+					<h4>Block Widgets</h4>
+					<ul>
+						<li>Group heading block with sub block to remove margin and display as one block.</li>
+						<li>Use <strong>H3</strong> heading for heading block.</li>
+						<li>Add class <strong>fl-widget-title</strong> to heading block to display widget headings like demo.</li>
+					</ul>
+					<figure>
+						<img src="assets/img/widget-title.png">
+					</figure>
+				</div>
+
+				<h2>5. Theme Translation</h2>
+				<div  id="translation" class="docs-single">
+					<h3>Translate Tulip Theme</h3>
+					<p>You can translate theme static words like "Latest, Trending, Audio...ect" using Poedit Free Program.</p>
+					<ul>
+						<li>Download and install <strong><a href="http://www.poedit.net/download.php" target="_blank">Poedit</a></strong> on your computer.</li>
+						<li>Go to extracted theme package folder > <strong>tulip > languages</strong>.</li>
+						<li>Open <strong>tulip.pot</strong> file using Poedit program and click on <strong>Create new translation</strong> button.</li>
+						<li>Select translation language.</li>
+						<li>Find words you want to translate and add translation. </li>
+						<li>Save <strong>.po</strong> file in same folder and compile file to <strong>.mo</strong> and save in same folder.
+						<br>If French (France) it will be like that fr_FR.po fr_FR.mo
+						<br>Check this link to name your file correctly depending on WordPress language: <a href="https://make.wordpress.org/polyglots/teams/" target="_blank">https://make.wordpress.org/polyglots/teams/</a>
+						<br>You will find correct name next to each language in <strong>WP Locale</strong> column.</li>
+						<li>Uplaod <strong>.po</strong> and <strong>.mo</strong> files to <strong>wp-content/themes/tulip/languages/</strong> directory using FTP.</li>
+					</ul>
+					<figure>
+						<img src="assets/img/lang3.png">
+					</figure>
+					<figure>
+						<img src="assets/img/lang4.png">
+					</figure>
+				</div>
+
+				<footer class="docs-single">
+				    <p>Once again, thank you so much for purchasing this theme. As we said at the beginning, we'd be glad to help you if you have any questions relating to this theme. we'll do our best to assist.</p>
+				    <a href="http://www.flatlayers.com/" target="_blank"><strong>FlatLayers</strong></a>
+				</footer>
+
+			</div>
+			
+		</section>
+		
+		<script src="assets/jquery.min.js"></script> 
+		<script src="assets/layout.js"></script>
+	</body>
+</html>
